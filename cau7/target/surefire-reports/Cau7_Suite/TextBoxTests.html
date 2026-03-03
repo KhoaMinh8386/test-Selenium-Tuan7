@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>TestNG:  TextBoxTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TextBoxTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 03 15:30:07 ICT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>23 seconds (23850 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.TextBoxTest.TC04_Long_Address()'><b>TC04_Long_Address</b><br>Test class: tests.TextBoxTest<br>Test method: TC04: Long address submission</td>
+<td></td>
+<td>1</td>
+<td>tests.TextBoxTest@6ca8564a</td></tr>
+<tr>
+<td title='tests.TextBoxTest.TC05_Special_Character_Name()'><b>TC05_Special_Character_Name</b><br>Test class: tests.TextBoxTest<br>Test method: TC05: Special characters in name</td>
+<td></td>
+<td>0</td>
+<td>tests.TextBoxTest@6ca8564a</td></tr>
+<tr>
+<td title='tests.TextBoxTest.TC02_Invalid_Email()'><b>TC02_Invalid_Email</b><br>Test class: tests.TextBoxTest<br>Test method: TC02: Invalid email format</td>
+<td></td>
+<td>0</td>
+<td>tests.TextBoxTest@6ca8564a</td></tr>
+<tr>
+<td title='tests.TextBoxTest.TC01_Valid_Data()'><b>TC01_Valid_Data</b><br>Test class: tests.TextBoxTest<br>Test method: TC01: Valid data submission</td>
+<td></td>
+<td>0</td>
+<td>tests.TextBoxTest@6ca8564a</td></tr>
+<tr>
+<td title='tests.TextBoxTest.TC03_Empty_Name()'><b>TC03_Empty_Name</b><br>Test class: tests.TextBoxTest<br>Test method: TC03: Empty name field</td>
+<td></td>
+<td>0</td>
+<td>tests.TextBoxTest@6ca8564a</td></tr>
+<tr>
+<td title='tests.TextBoxTest.TC06_Only_Required_Field()'><b>TC06_Only_Required_Field</b><br>Test class: tests.TextBoxTest<br>Test method: TC06: Only required fields (Simulated)</td>
+<td></td>
+<td>0</td>
+<td>tests.TextBoxTest@6ca8564a</td></tr>
+</table><p>
+</body>
+</html>

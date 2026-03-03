@@ -1,0 +1,4 @@
+tests\ScreenshotUtil.class
+tests\BaseTest.class
+tests\TextBoxPage.class
+tests\TextBoxTest.class

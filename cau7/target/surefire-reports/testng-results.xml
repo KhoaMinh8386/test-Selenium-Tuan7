@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-03T15:30:07 ICT" name="Cau7_Suite" finished-at="2026-03-03T15:30:31 ICT" duration-ms="23850">
+    <groups>
+    </groups>
+    <test started-at="2026-03-03T15:30:07 ICT" name="TextBoxTests" finished-at="2026-03-03T15:30:31 ICT" duration-ms="23850">
+      <class name="tests.TextBoxTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:07 ICT" name="setUp" finished-at="2026-03-03T15:30:11 ICT" duration-ms="3724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC01_Valid_Data()[pri:1, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:11 ICT" name="TC01_Valid_Data" description="TC01: Valid data submission" finished-at="2026-03-03T15:30:11 ICT" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Valid_Data -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:11 ICT" name="tearDown" finished-at="2026-03-03T15:30:12 ICT" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_Valid_Data status=SUCCESS method=TextBoxTest.TC01_Valid_Data()[pri:1, instance:tests.TextBoxTest@6ca8564a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:12 ICT" name="setUp" finished-at="2026-03-03T15:30:15 ICT" duration-ms="3197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC02_Invalid_Email()[pri:2, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:15 ICT" name="TC02_Invalid_Email" description="TC02: Invalid email format" finished-at="2026-03-03T15:30:15 ICT" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_Invalid_Email -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:15 ICT" name="tearDown" finished-at="2026-03-03T15:30:15 ICT" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_Invalid_Email status=SUCCESS method=TextBoxTest.TC02_Invalid_Email()[pri:2, instance:tests.TextBoxTest@6ca8564a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:15 ICT" name="setUp" finished-at="2026-03-03T15:30:18 ICT" duration-ms="3023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC03_Empty_Name()[pri:3, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:18 ICT" name="TC03_Empty_Name" description="TC03: Empty name field" finished-at="2026-03-03T15:30:19 ICT" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_Empty_Name -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:19 ICT" name="tearDown" finished-at="2026-03-03T15:30:19 ICT" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_Empty_Name status=SUCCESS method=TextBoxTest.TC03_Empty_Name()[pri:3, instance:tests.TextBoxTest@6ca8564a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:19 ICT" name="setUp" finished-at="2026-03-03T15:30:22 ICT" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC04_Long_Address()[pri:4, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:22 ICT" name="TC04_Long_Address" description="TC04: Long address submission" finished-at="2026-03-03T15:30:23 ICT" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_Long_Address -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:23 ICT" name="tearDown" finished-at="2026-03-03T15:30:23 ICT" duration-ms="159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC04_Long_Address status=SUCCESS method=TextBoxTest.TC04_Long_Address()[pri:4, instance:tests.TextBoxTest@6ca8564a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:23 ICT" name="setUp" finished-at="2026-03-03T15:30:27 ICT" duration-ms="3108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC05_Special_Character_Name()[pri:5, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:27 ICT" name="TC05_Special_Character_Name" description="TC05: Special characters in name" finished-at="2026-03-03T15:30:27 ICT" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_Special_Character_Name -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:27 ICT" name="tearDown" finished-at="2026-03-03T15:30:27 ICT" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC05_Special_Character_Name status=SUCCESS method=TextBoxTest.TC05_Special_Character_Name()[pri:5, instance:tests.TextBoxTest@6ca8564a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:27 ICT" name="setUp" finished-at="2026-03-03T15:30:30 ICT" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC06_Only_Required_Field()[pri:6, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:30 ICT" name="TC06_Only_Required_Field" description="TC06: Only required fields (Simulated)" finished-at="2026-03-03T15:30:31 ICT" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_Only_Required_Field -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TextBoxTest@6ca8564a]" started-at="2026-03-03T15:30:31 ICT" name="tearDown" finished-at="2026-03-03T15:30:31 ICT" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC06_Only_Required_Field status=SUCCESS method=TextBoxTest.TC06_Only_Required_Field()[pri:6, instance:tests.TextBoxTest@6ca8564a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TextBoxTest -->
+    </test> <!-- TextBoxTests -->
+  </suite> <!-- Cau7_Suite -->
+</testng-results>
